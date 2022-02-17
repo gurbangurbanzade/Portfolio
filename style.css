@@ -20,6 +20,8 @@ body {
     height: 100%;
     background-color: chartreuse;
     margin: auto;
+    background-image: url(image/developerbck.jpeg);
+    background-size: cover;
 }
 
 
@@ -31,6 +33,8 @@ body {
     height: 100%;
     background-color: coral;
     margin: auto;
+    background-image: url(image/bloggerbck.jpeg);
+    background-size: cover;
 }
 
 .button {
