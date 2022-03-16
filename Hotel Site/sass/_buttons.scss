@@ -1,0 +1,52 @@
+@import "colors";
+@import "reset";
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    &:hover{
+        opacity: 0.9;
+    }
+}
+
+.btn-primary{
+    color: $white;
+    background-color: $primary;
+}
+
+.btn-secondary{
+    color: $white;
+    background-color: $secondary;
+}
+
+.btn-success{
+    color: $white;
+    background-color: $success;
+}
+
+.btn-danger{
+    color: $white;
+    background-color: $danger;
+}
+
+.btn-warning{
+    color: $white;
+    background-color: $warning;
+}
+
+.btn-dark{
+    color: $white;
+    background-color: $dark;
+}
+
+.btn-outline-primary{
+    background: transparent;
+    border: 0.1rem solid $primary;
+    color: $dark;
+    &:hover{
+        background-color: $primary;
+        color: $white;
+    }
+}

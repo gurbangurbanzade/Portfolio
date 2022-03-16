@@ -1,0 +1,30 @@
+$white:white;
+$primary:#007bff;
+$secondary:#6c757d;
+$success:#28a745;
+$danger:#dc3545;
+$warning:#ffc107;
+$info:#17a2b8;
+$dark:#343a40;
+$light:#f8f9fa;
+
+// text colors
+.text-primary{ color:$primary}
+.text-secondary{ color:$secondary}
+.text-success{ color:$success}
+.text-danger{ color:$danger}
+.text-warning{ color:$warning}
+.text-info{ color:$info}
+.text-dark{ color:$dark}
+.text-light{ color:$light}
+
+// bg-colors
+.bg-primary{background-color:$primary}
+.bg-secondary{background-color:$secondary}
+.bg-success{background-color:$success}
+.bg-danger{ background-color:$danger}
+.bg-warning{ background-color:$warning}
+.bg-info{ background-color:$info}
+.bg-dark{ background-color:$dark}
+.bg-light{ background-color:$light}
+
