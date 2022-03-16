@@ -50,3 +50,13 @@
         color: $white;
     }
 }
+
+.btn-outline{
+    background: transparent;
+    border: 0.1rem solid $white;
+    color: $white;
+    &:hover{
+        background-color: $white;
+        color: $dark;
+    }
+}
