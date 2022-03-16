@@ -1023,6 +1023,51 @@ img {
   font-size: 1.4rem;
 }
 
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 0;
+}
+
+.gallery .gallery-header {
+  text-align: center;
+}
+
+.gallery .gallery-header h2 {
+  font-size: 3rem;
+}
+
+.gallery .gallery-header p {
+  font-size: 1.5rem;
+}
+
+.gallery .gallery-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.gallery .gallery-images .gallery-images-col {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  padding: 0.3rem;
+}
+
+.gallery .gallery-images .gallery-images-col img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .main-service2 {
   display: -webkit-box;
   display: -ms-flexbox;

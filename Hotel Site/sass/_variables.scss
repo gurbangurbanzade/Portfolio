@@ -133,7 +133,36 @@
     }
 }
 ////////////////////////////////////////////////////////
+.gallery{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    .gallery-header{
+        text-align: center;
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+
+    }
+    .gallery-images{
+        display: flex;
+        flex-direction: row;
+            .gallery-images-col{
+                flex: 25%;
+                padding: 0.3rem;
+                img:hover{
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+    }
+}
+////////////////////////////////////////////////////////
 .main-service2{
     display: flex;
     flex-direction: row-reverse;
 }
+////////////////////////////////////////////////////////
