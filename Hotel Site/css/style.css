@@ -541,11 +541,24 @@ img {
 }
 
 .main-header {
-  padding: 2rem 3rem;
-  background-color: #343a40;
+  height: 100vh;
+  background-image: url("../image/bg-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.main-header::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .main-header .navbar {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -555,10 +568,15 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: rgba(52, 58, 64, 0.7);
+  padding: 1rem 3rem;
+  width: 100%;
 }
 
 .main-header .navbar h1 {
   color: white;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .main-header .navbar h1 span {
@@ -577,9 +595,46 @@ img {
 }
 
 .main-header .navbar nav ul li a {
+  font-size: 1.4rem;
   color: white;
 }
 
 .main-header .navbar nav ul li a:hover {
   border-bottom: 0.2rem solid #ffc107;
+}
+
+.main-header .main-header-info {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.main-header .main-header-info h1 {
+  font-size: 5.5rem;
+}
+
+.main-header .main-header-info p {
+  font-size: 2rem;
+}
+
+.main-header .main-header-info a {
+  margin-top: 1rem;
+}
+
+.main-header * {
+  z-index: 5;
 }
