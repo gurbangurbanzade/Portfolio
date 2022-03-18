@@ -2,3 +2,42 @@
 @import "colors";
 @import "buttons";
 
+.section-header{
+        text-align: center;
+        h2{
+            font-size: 3rem;
+            
+        }
+        p{
+            font-size: 1.5rem;
+            
+        }
+    }
+
+.gallery-images{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+            .gallery-images-col{
+                flex: 25%;
+                padding: 0.3rem;
+                img:hover{
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                background-color: $warning;
+                padding: 1rem;
+                h2{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+            }
+            
+    }
