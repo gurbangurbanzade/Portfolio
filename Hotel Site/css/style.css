@@ -1249,7 +1249,7 @@ img {
 }
 
 .main-header::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
@@ -1460,4 +1460,53 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.team .gallery-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+.team .gallery-images .gallery-images-col {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  padding: 0.3rem;
+}
+
+.team .gallery-images .gallery-images-col img {
+  border-radius: 50%;
+}
+
+.team .gallery-images .gallery-images-col:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.team .gallery-images .gallery-images-col div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.team .gallery-images .gallery-images-col div h2 {
+  font-size: 2rem;
+}
+
+.team .gallery-images .gallery-images-col div p {
+  font-size: 1.2rem;
 }

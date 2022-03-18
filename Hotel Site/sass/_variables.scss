@@ -4,156 +4,184 @@
 @import "common";
 
 // header
-.main-header{
-   // width: 100vh;
-    height: 100vh;
-    background-image: url('../image/bg-1.jpeg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    &::before{
-        content: '';
-        background-color: rgba($color: #000000, $alpha: 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-    }
-    .navbar{
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: rgba($color: $dark, $alpha: 0.7);
-        padding: 1rem 3rem;
-        width: 100%;
-        h1{
-            color: $white;
-            font-size: 3rem;
-            font-weight: 400;
-            span{
-                color: $warning;
-            }
-        }
-        nav{
-            
-            ul{
-                display: flex;
-                
-                li{
-                    list-style: none;
-                    padding-left: 2rem;
-                    a{
-                        font-size: 1.4rem;
-                        color: $white;
-                        &:hover{
-                            border-bottom: 0.2rem solid $warning;
-                        }
-                    }
-                }
-            }
-        }
-        
-    }
-    .main-header-info{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: $white;
-        text-align: center;
-        h1{
-           font-size: 5.5rem;
-        }
-        p{
-            font-size: 2rem;
-        }
-        a{
-            margin-top: 1rem;
-        }
-    }
-    *{
-        z-index: 5;
-    }
-}
-////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
-.main-item{
+.main-header {
+  // width: 100vh;
+  height: 100vh;
+  background-image: url("../image/bg-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  &::before {
+    content: "";
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .navbar {
+    position: fixed;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 3rem;
-    div{
-        i{
-            color: $white;
-            padding: 1rem;
-            background-color: $primary;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-        }
-        h3{
-            font-size: 1.6rem;
-        }
-        p{
-            font-size: 1.1rem;
-        }
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba($color: $dark, $alpha: 0.7);
+    padding: 1rem 3rem;
+    width: 100%;
+    h1 {
+      color: $white;
+      font-size: 3rem;
+      font-weight: 400;
+      span {
+        color: $warning;
+      }
     }
-}
-////////////////////////////////////////////////////////
-.main-service{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .main-service-img{
-        flex: 1;
-        img{
-            height: 100%;
-           
-        }
-    }
-    .main-service-info{
-        flex: 1;
-        
+    nav {
+      ul {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        color: $white;
-        .main-service-info-content{
-            padding: 3rem;
-            h2{
-            font-size: 4rem;
-            }
-            p{
+
+        li {
+          list-style: none;
+          padding-left: 2rem;
+          a {
             font-size: 1.4rem;
+            color: $white;
+            &:hover {
+              border-bottom: 0.2rem solid $warning;
             }
+          }
         }
+      }
     }
-}
-////////////////////////////////////////////////////////
-.gallery{
+  }
+  .main-header-info {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
-    .gallery-images{
-        display: flex;
-        flex-direction: row;
-            .gallery-images-col{
-                flex: 25%;
-                padding: 0.3rem;
-                img:hover{
-                    cursor: pointer;
-                    opacity: 0.8;
-                }
-            }
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    text-align: center;
+    h1 {
+      font-size: 5.5rem;
     }
+    p {
+      font-size: 2rem;
+    }
+    a {
+      margin-top: 1rem;
+    }
+  }
+  * {
+    z-index: 5;
+  }
 }
 ////////////////////////////////////////////////////////
-.main-service2{
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+.main-item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 3rem;
+  div {
+    i {
+      color: $white;
+      padding: 1rem;
+      background-color: $primary;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
+////////////////////////////////////////////////////////
+.main-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .main-service-img {
+    flex: 1;
+    img {
+      height: 100%;
+    }
+  }
+  .main-service-info {
+    flex: 1;
+
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: $white;
+    .main-service-info-content {
+      padding: 3rem;
+      h2 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
 }
 ////////////////////////////////////////////////////////
+.gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  .gallery-images {
+    display: flex;
+    flex-direction: row;
+    .gallery-images-col {
+      flex: 25%;
+      padding: 0.3rem;
+      img:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+////////////////////////////////////////////////////////
+.main-service2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+////////////////////////////////////////////////////////
+.team {
+  .gallery-images {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    .gallery-images-col {
+      flex: 25%;
+      padding: 0.3rem;
+      img {
+        border-radius: 50%;
+      }
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1rem;
+        background-color: $light;
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
