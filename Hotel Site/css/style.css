@@ -571,7 +571,7 @@ img {
 }
 
 .section-header {
-  margin-top: 2rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -1193,7 +1193,7 @@ img {
 }
 
 .section-header {
-  margin-top: 2rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -1551,13 +1551,19 @@ img {
           justify-content: center;
 }
 
+.contact .main-service-info .main-service-info-content form div input {
+  height: 3rem;
+  border: 1px solid white;
+}
+
 .contact .main-service-info .main-service-info-content form button {
   margin-top: 2rem;
   width: 100%;
 }
 
 footer {
-  height: 10rem;
+  height: 15rem;
+  background-color: #6c757d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

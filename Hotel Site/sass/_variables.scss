@@ -200,6 +200,11 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
+
+          input {
+            height: 3rem;
+            border: 1px solid white;
+          }
         }
         button {
           margin-top: 2rem;
@@ -210,7 +215,8 @@
   }
 }
 footer {
-  height: 10rem;
+  height: 15rem;
+  background-color: $secondary;
   display: flex;
   flex-direction: column;
   justify-content: center;
