@@ -113,7 +113,6 @@
   }
   .main-service-info {
     flex: 1;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,6 +180,46 @@
         p {
           font-size: 1.2rem;
         }
+      }
+    }
+  }
+}
+//////////////////////////////////////////
+.contact {
+  color: black;
+  .main-service-info {
+    .main-service-info-content {
+      width: 100%;
+      h2 {
+        color: black;
+      }
+      form {
+        color: black;
+        div {
+          margin-top: 1rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        button {
+          margin-top: 2rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+footer {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div {
+    i {
+      margin-right: 0.5rem;
+      &:hover {
+        cursor: pointer;
       }
     }
   }

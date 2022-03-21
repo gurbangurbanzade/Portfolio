@@ -19,7 +19,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -33,7 +33,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -191,7 +192,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -205,7 +206,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -299,7 +301,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -313,7 +315,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -471,7 +474,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -485,7 +488,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -567,6 +571,7 @@ img {
 }
 
 .section-header {
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -636,7 +641,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -650,7 +655,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -808,7 +814,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -822,7 +828,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -916,7 +923,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -930,7 +937,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -1088,7 +1096,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: white;
   color: #333;
   line-height: 1.6;
@@ -1102,7 +1110,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
   line-height: 1.2;
 }
@@ -1184,6 +1193,7 @@ img {
 }
 
 .section-header {
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -1509,4 +1519,64 @@ img {
 
 .team .gallery-images .gallery-images-col div p {
   font-size: 1.2rem;
+}
+
+.contact {
+  color: black;
+}
+
+.contact .main-service-info .main-service-info-content {
+  width: 100%;
+}
+
+.contact .main-service-info .main-service-info-content h2 {
+  color: black;
+}
+
+.contact .main-service-info .main-service-info-content form {
+  color: black;
+}
+
+.contact .main-service-info .main-service-info-content form div {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .main-service-info .main-service-info-content form button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+footer {
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div i {
+  margin-right: 0.5rem;
+}
+
+footer div i:hover {
+  cursor: pointer;
 }
