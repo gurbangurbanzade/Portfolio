@@ -230,3 +230,21 @@ footer {
     }
   }
 }
+///////responsive mobile
+@media (max-width: 575px) {
+  body {
+    font-size: 0.3rem;
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-header {
+      flex-direction: column;
+      flex: 100%;
+    }
+    .main-service-info {
+      flex-direction: column;
+      flex: 100%;
+    }
+  }
+}
