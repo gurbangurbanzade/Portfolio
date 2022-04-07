@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "lato", sans-serif;
+  line-height: 1.5;
+  background-color: $colorLight;
+}
+
+a {
+  color: $colorDark;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Varela round", sans-serif;
+  margin: 0.7rem;
+  line-height: 1.3;
+}
