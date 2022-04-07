@@ -1,2 +1,17 @@
 @import "colors";
 @import "reset";
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 2fr;
+  ul {
+    li {
+      display: inline;
+      a {
+        &:active {
+          background-color: ;
+        }
+      }
+    }
+  }
+}
