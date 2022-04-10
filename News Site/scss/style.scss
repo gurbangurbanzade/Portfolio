@@ -4,14 +4,20 @@
 .navbar {
   display: grid;
   grid-template-columns: 0.5fr 3fr 2fr;
+  text-align: center;
+  padding: 1rem;
+  img {
+  }
   ul {
     li {
       display: inline;
       a {
         &:active {
-          background-color: ;
+          background-color: $colorPrimary;
         }
       }
     }
+  }
+  .social {
   }
 }

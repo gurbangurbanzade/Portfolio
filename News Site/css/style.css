@@ -49,8 +49,14 @@ p {
   display: grid;
   -ms-grid-columns: 0.5fr 3fr 2fr;
       grid-template-columns: 0.5fr 3fr 2fr;
+  text-align: center;
+  padding: 1rem;
 }
 
 .navbar ul li {
   display: inline;
+}
+
+.navbar ul li a:active {
+  background-color: #e76f51;
 }
