@@ -49,14 +49,41 @@ p {
   display: grid;
   -ms-grid-columns: 0.5fr 3fr 2fr;
       grid-template-columns: 0.5fr 3fr 2fr;
-  text-align: center;
   padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar ul {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .navbar ul li {
   display: inline;
+  padding: 1rem;
 }
 
 .navbar ul li a:active {
   background-color: #e76f51;
+}
+
+.navbar .social {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }

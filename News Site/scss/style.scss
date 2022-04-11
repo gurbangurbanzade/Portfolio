@@ -4,13 +4,18 @@
 .navbar {
   display: grid;
   grid-template-columns: 0.5fr 3fr 2fr;
-  text-align: center;
   padding: 1rem;
+  position: sticky;
   img {
+    align-self: center;
+    justify-content: center;
   }
   ul {
+    align-self: center;
+    justify-self: start;
     li {
       display: inline;
+      padding: 1rem;
       a {
         &:active {
           background-color: $colorPrimary;
@@ -19,5 +24,7 @@
     }
   }
   .social {
+    align-self: center;
+    justify-self: end;
   }
 }
