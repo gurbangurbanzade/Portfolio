@@ -164,3 +164,9 @@ header .header .header-icons .header-icons-count {
   right: 0;
   bottom: 0;
 }
+
+.collectionSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
