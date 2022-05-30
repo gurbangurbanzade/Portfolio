@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Roboto Linki -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 
+      Bootstrap link
+     -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="variable container-sm p-sm-5 py-4">
+        <!-- Shipment Mode -->
+        <div class="variable-shipmentMode mb-4">
+          <h5>Shipment Mode</h5>
+          <div class="variable-radio-input d-flex">
+            <div class="form-check me-3">
+              <input
+                class="form-check-input salam"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <i class="fa-solid fa-ship"></i>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Sea
+              </label>
+            </div>
+            <div class="form-check me-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <i class="fa-solid fa-train-subway"></i>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Rail
+              </label>
+            </div>
+            <div class="form-check me-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <i class="fa-solid fa-plane"></i>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Air
+              </label>
+            </div>
+            <div class="form-check me-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <i class="fa-solid fa-truck"></i>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Truck
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Origin Destination -->
+        <div class="variable-originDestination mb-3">
+          <h5>Origin</h5>
+          <select class="form-select mb-2" aria-label="Default select example">
+            <option selected>City, Country</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <h5>Destination</h5>
+          <select class="form-select mb-2" aria-label="Default select example">
+            <option selected>City, Country</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <!-- Shipping Mode -->
+        <div class="variable-shipmentMode mb-3">
+          <h5>Shipment Mode</h5>
+          <div class="variable-radio-input d-flex align-items-center">
+            <div class="form-check me-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <i class="fa-solid fa-pallet"></i>
+              <label class="form-check-label" for="flexRadioDefault1">
+                FCL
+              </label>
+            </div>
+            <div class="form-check me-3">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <i class="fa-solid fa-chess-rook"></i>
+              <label class="form-check-label" for="flexRadioDefault1">
+                LCL
+              </label>
+            </div>
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+        </div>
+        <!-- Container -->
+        <div class="variable-container mb-3">
+          <h5>Container</h5>
+          <div class="variable-container-inputs row">
+            <div class="col-12 col-md-6">
+              <h6>Type</h6>
+              <select
+                class="form-select mb-2"
+                aria-label="Default select example"
+              >
+                <option selected>Pick type</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-6">
+              <h6>Cargo weight (per container)</h6>
+              <select
+                class="form-select mb-2"
+                aria-label="Default select example"
+              >
+                <option selected>0</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-6">
+              <h6>Quantity</h6>
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary" type="button">
+                  -
+                </button>
+                <input
+                  type="text"
+                  class="form-control variable-container-inputs-quantity"
+                  placeholder="1"
+                  aria-label="Example text with two button addons"
+                />
+
+                <button class="btn btn-outline-secondary" type="button">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="variable-footer mb-3">
+          <h5>Cargo</h5>
+          <input
+            type="text"
+            id="inputPassword5"
+            class="form-control mb-4"
+            placeholder="Description + (HS/HTS Code of the product if available)"
+          />
+          <h5>Goods ready date</h5>
+          <input
+            type="date"
+            id="inputPassword5"
+            class="form-control mb-4 salam"
+          />
+          <h5>Incorterms</h5>
+          <select class="form-select mb-4" aria-label="Default select example">
+            <option selected>Select Incorterms</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <h5>Delivery address</h5>
+          <input
+            type="text"
+            id="inputPassword5"
+            class="form-control mb-4"
+            placeholder="Postal code for delivery"
+          />
+          <h5>Additional information</h5>
+          <input
+            type="text"
+            id="inputPassword5"
+            class="form-control mb-4"
+            placeholder="Additional details or requests"
+          />
+          <h5>MSDS / Other Document / Photo</h5>
+          <div class="col-lg-6">
+            <p class="variable-footer-text">(PDF, Maks. 5.0. MB)</p>
+            <input type="file" id="real-file" hidden="hidden" />
+            <div class="d-flex align-items-center">
+              <button type="button" id="custom-button" class="btn btn-primary">
+                CHOOSE A FILE
+              </button>
+              <h6 class="ms-2">No file chosen, yet.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+      Bootstrap link
+     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Avesome linki -->
+    <script
+      src="https://kit.fontawesome.com/f1c0c87b9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS file linki -->
+    <script src="app.js"></script>
+  </body>
+</html>
