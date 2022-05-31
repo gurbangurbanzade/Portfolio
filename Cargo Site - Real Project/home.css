@@ -17,8 +17,10 @@ section {
 .variable {
   background-color: white;
 }
-.variable h5,
+.variable h2,
+h5,
 h6,
+.h6,
 label,
 i {
   color: #405982;
@@ -70,3 +72,8 @@ i {
 /* 42 Page css */
 
 /* End 42 Page css */
+/* profil 2 */
+.fa-phone {
+  color: #00ffb2;
+}
+/* End profil 2 */
