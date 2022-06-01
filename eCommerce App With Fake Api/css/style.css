@@ -42,13 +42,15 @@ a {
   text-decoration: none;
 }
 
-nav {
+nav,
+footer {
   background-color: #004dda;
   color: white;
   padding: 2rem;
 }
 
-nav .nav {
+nav .nav,
+footer .nav {
   margin: 0 auto;
   max-width: 1220px;
   display: -webkit-box;
@@ -62,7 +64,8 @@ nav .nav {
           align-items: center;
 }
 
-nav .nav .nav-logo {
+nav .nav .nav-logo,
+footer .nav .nav-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,13 +74,15 @@ nav .nav .nav-logo {
           align-items: center;
 }
 
-nav .nav .nav-logo img {
+nav .nav .nav-logo img,
+footer .nav .nav-logo img {
   width: 4rem;
   height: 4rem;
   margin-right: 1rem;
 }
 
-nav .nav .navbar ul {
+nav .nav .navbar ul,
+footer .nav .navbar ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,15 +90,18 @@ nav .nav .navbar ul {
   text-decoration: none;
 }
 
-nav .nav .navbar ul li {
+nav .nav .navbar ul li,
+footer .nav .navbar ul li {
   margin: 0 1rem;
 }
 
-nav .nav .navbar ul li a {
+nav .nav .navbar ul li a,
+footer .nav .navbar ul li a {
   color: white;
 }
 
-nav .nav .nav-contact {
+nav .nav .nav-contact,
+footer .nav .nav-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,4 +177,77 @@ header .header .header-icons .header-icons-count {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
+.collectionSelect .collectionSelect-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem 12rem;
+  border: 0.5rem solid black;
+}
+
+.collectionSelect .collectionSelect-card span {
+  margin-bottom: 2rem;
+}
+
+.topSelling {
+  margin: 4rem auto;
+  max-width: 1220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.topSelling .topSelling-header {
+  margin-bottom: 2rem;
+}
+
+.topSelling .topSelling-product {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.topSelling .topSelling-product .topSelling-product-card {
+  margin: 1rem;
+}
+
+.topSelling .topSelling-product .topSelling-product-card .topSelling-product-card-header img {
+  width: 100%;
+}
+
+.nav {
+  margin: 0 auto;
+  max-width: 1220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

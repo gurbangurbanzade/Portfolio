@@ -2,7 +2,8 @@
 //--------------------------------
 // Navbar
 //--------------------------------
-nav {
+nav,
+footer {
   background-color: #004dda;
   color: white;
   padding: 2rem;
@@ -12,7 +13,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     .nav-logo {
       display: flex;
       align-items: center;
@@ -97,5 +97,56 @@ header {
 //--------------------------------
 .collectionSelect {
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1220px;
+  .collectionSelect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 12rem;
+    border: 0.5rem solid black;
+    span {
+      margin-bottom: 2rem;
+    }
+  }
 }
 // End Collection Select
+//--------------------------------
+// Top Selling
+//--------------------------------
+.topSelling {
+  margin: 4rem auto;
+  max-width: 1220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .topSelling-header {
+    margin-bottom: 2rem;
+  }
+  .topSelling-product {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    .topSelling-product-card {
+      margin: 1rem;
+      .topSelling-product-card-header {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// End Top Selling
+//--------------------------------
+// Footer
+//--------------------------------
+.nav {
+  margin: 0 auto;
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// End Footer
