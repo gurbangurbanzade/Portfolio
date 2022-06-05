@@ -18,6 +18,7 @@ section {
   background-color: white;
 }
 .variable h2,
+h4,
 h5,
 h6,
 .h6,
@@ -77,3 +78,52 @@ i {
   color: #00ffb2;
 }
 /* End profil 2 */
+/* Manual Order */
+.headerIcon {
+  border-radius: 50%;
+  color: white;
+  border: 0.1rem solid #18bdf6;
+  background-color: #18bdf6;
+  padding: 0.5rem 1rem;
+}
+.red {
+  color: red;
+}
+.defaultCheckbox input,
+label {
+  color: #ff912c;
+  font-weight: bold;
+}
+.commonIcon {
+  border-radius: 50%;
+  color: white;
+  border: 0.1rem solid #18bdf6;
+  background-color: #18bdf6;
+  padding: 0.5rem;
+}
+.totalText {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.fa-tag {
+  color: white;
+}
+.fa-ups {
+  color: #ffb406;
+}
+.rengliSoz {
+  color: #ff912c;
+}
+.productContentFooter {
+  background-color: #e1f2f9;
+}
+/* End Manual Order */
+/* ------------------------------------- */
+/* Responsive Design */
+/* ------------------------------------- */
+@media (min-width: 576px) {
+  .defaultCheckbox {
+    margin-top: 8rem;
+    margin-left: 8rem;
+  }
+}
