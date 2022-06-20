@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+section {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+.variable {
+  background-color: white;
+}
+.variable h2,
+h4,
+h5,
+h6,
+.h6,
+label,
+i {
+  color: #405982;
+}
+
+.variable ::placeholder {
+  color: rgba(64, 89, 130, 0.55);
+}
+.variable select {
+  color: rgba(64, 89, 130, 0.55);
+}
+/* 38 Page css  */
+.variable-container-inputs-button38 {
+  background-color: #21e7c3 !important;
+  border: none;
+  color: white;
+}
+.fa-location-pin {
+  color: #ffb406;
+}
+.fa-magnifying-glass-chart {
+  color: #00d2ff;
+}
+.fa-lock {
+  color: #d60000;
+}
+.fa-sack-dollar {
+  color: #ff912c;
+}
+
+/*  End 38 Page css   */
+/* 41 Page css */
+.variable-container-inputs-quantity {
+  text-align: center;
+}
+.variable-container-inputs-button {
+  color: white !important;
+}
+#custom-button {
+  background-color: #68d7fa;
+  border: none;
+}
+.variable-footer-text {
+  font-size: 1rem;
+  color: grey;
+  margin-bottom: 0 !important;
+}
+/* End 41 Page css */
+/* 42 Page css */
+
+/* End 42 Page css */
+/* profil 2 */
+.fa-phone {
+  color: #00ffb2;
+}
+/* End profil 2 */
+/* Manual Order */
+.headerIcon {
+  border-radius: 50%;
+  color: white;
+  border: 0.1rem solid #18bdf6;
+  background-color: #18bdf6;
+  padding: 0.5rem 1rem;
+}
+.red {
+  color: red;
+}
+.defaultCheckbox input,
+label {
+  color: #ff912c;
+  font-weight: bold;
+}
+.commonIcon {
+  border-radius: 50%;
+  color: white;
+  border: 0.1rem solid #18bdf6;
+  background-color: #18bdf6;
+  padding: 0.5rem;
+}
+.totalText {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.fa-tag {
+  color: white;
+}
+.fa-ups {
+  color: #ffb406;
+}
+.rengliSoz {
+  color: #ff912c;
+}
+.productContentFooter {
+  background-color: #e1f2f9;
+}
+/* End Manual Order */
+/* ------------------------------------- */
+/* Responsive Design */
+/* ------------------------------------- */
+@media (min-width: 576px) {
+  .defaultCheckbox {
+    margin-top: 8rem;
+    margin-left: 8rem;
+  }
+}
+
+/* bakiye css */
+.bakiyeHeaderText {
+  color: #6b6d71;
+  font-size: 1.4rem;
+}
+.bakiyeIcon {
+  background-color: #6bb79b;
+  color: white;
+  border-radius: 50%;
+  padding: 0.7rem 1rem;
+}
+.bakiyeHeaderLabel {
+  color: #405982;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.btnBakiye {
+  background-color: #6bb79b;
+  color: white;
+}
+.fa-credit-card {
+  color: #5478d7;
+}
+.bakiyeFooterText {
+  color: #406ad6;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.bakiyeFooterKrediBg {
+  background-color: #cdcdcd54;
+}
+.salam {
+  font-size: 3rem;
+}
+.bakiyeCardText {
+  font-size: 1.3rem;
+  color: rgba(107, 109, 113, 0.85);
+}
+/* bakiye css */
+/* Bulk Order */
+.bulkOrderText {
+  color: #405982;
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+}
+.bulkOrderTextLink {
+  text-decoration: none;
+  color: #68d7fa;
+}
+.bulkOrderBtnUp {
+  background-color: #68d7fa;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.bulkOrderDownHeaderText {
+  color: #405982;
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+}
+.bulkOrderText2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #405982;
+}
+.bulkOrderChoose {
+  background-color: red;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  color: #68d7fa;
+}
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
+/* End bulk Order */
+/* -------------------------------------- */
+/* Amazon FBA */
+.amazonIconBG {
+  background-color: #00d2ff;
+  border-radius: 50%;
+  text-align: center;
+}
+.amazonHeaderText {
+  color: #405982;
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+.amazonBTN {
+  color: white;
+  background-color: #68d7fa;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+.amazonSelect {
+  border: 1px solid #68d7fa;
+}
+
+.amazonLabel {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #405982;
+}
+.amazonLabel1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #405982;
+}
+.iconBG {
+  width: 30px;
+  height: 30px;
+  background-color: #00d2ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconBG1 {
+  width: 25px;
+  height: 25px;
+  background-color: #00d2ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconBG2 {
+  width: 20px;
+  height: 20px;
+  background-color: #00d2ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-check-input {
+  border: 1px solid gree;
+}
+.form-check-input:checked {
+  background-color: #21e7c3;
+  border-color: #21e7c3;
+}
+/* End Amazon FBA */
+.salam {
+  background-color: red !important;
+}
