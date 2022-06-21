@@ -1,0 +1,125 @@
+.box {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+.width {
+  width: 200px;
+}
+.layer1 {
+  z-index: 7;
+  animation: layer1 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer1 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 400px;
+  }
+}
+.layer01 {
+  z-index: 1;
+}
+
+.layer2 {
+  z-index: 6;
+  animation: layer2 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer2 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 375px;
+  }
+}
+.layer02 {
+  z-index: 1;
+}
+
+.layer3 {
+  z-index: 5;
+  animation: layer3 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer3 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+.layer03 {
+  z-index: 1;
+}
+
+.layer4 {
+  z-index: 4;
+  animation: layer4 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer4 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 325px;
+  }
+}
+.layer04 {
+  z-index: 1;
+}
+
+.layer5 {
+  z-index: 3;
+  animation: layer5 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer5 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 290px;
+  }
+}
+.layer05 {
+  z-index: 1;
+}
+.layer6 {
+  z-index: 2;
+  animation: layer6 1.3s ease-in-out infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 300px;
+}
+@keyframes layer6 {
+  0%,
+  100% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 280px;
+  }
+}
