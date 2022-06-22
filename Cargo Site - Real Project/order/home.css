@@ -283,13 +283,57 @@ label {
   justify-content: center;
 }
 .form-check-input {
-  border: 1px solid gree;
+  border: 1px solid #21e7c3;
 }
 .form-check-input:checked {
   background-color: #21e7c3;
   border-color: #21e7c3;
 }
-/* End Amazon FBA */
-.salam {
-  background-color: red !important;
+.form-check-inputs {
+  border: 1px solid #47c5ff;
 }
+.form-check-inputs:checked {
+  background-color: #47c5ff;
+  border-color: #47c5ff;
+}
+.amazonOrderText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #405982;
+}
+.amazonTextAdditional {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #405982;
+}
+.amazonTextPrice {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #ff912c;
+}
+.btnSelect {
+  background: #68d7fa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  color: white;
+}
+/* End Amazon FBA */
+
+/* Stock */
+.stockText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #677094;
+}
+.createStockBtn {
+  padding-right: 5rem !important;
+}
+.myStockBtn {
+  padding-right: 6rem !important;
+  background-color: #d9d9d9;
+}
+/* End Stock */
